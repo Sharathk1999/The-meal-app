@@ -57,10 +57,6 @@ class RecipeScreen extends ConsumerWidget {
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height * 0.45,
                 decoration: BoxDecoration(
-                  // borderRadius: BorderRadius.only(
-                  //   bottomLeft: Radius.circular(20),
-                  //   bottomRight: Radius.circular(20)
-                  // ),
                   image: DecorationImage(
                       image: NetworkImage(recipe.image), fit: BoxFit.cover),
                 ),
