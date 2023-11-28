@@ -7,7 +7,7 @@ class MealModel {
   final String instructions;
   final String image;
   final String youtubeUrl;
-  final List ingredients;
+  final List<Ingredients> ingredients;
   MealModel({
     required this.id,
     required this.name,

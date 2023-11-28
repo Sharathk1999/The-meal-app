@@ -8,3 +8,13 @@ TextStyle textStyle(double size,[Color color = Colors.black, FontWeight fontWeig
     fontWeight: fontWeight,
   );
 }
+
+
+void showSnackBar({required BuildContext context, required String content}) {
+  ScaffoldMessenger.of(context).clearSnackBars();
+  ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(
+      content: Text(content),
+    ),
+  );
+}
