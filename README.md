@@ -1,16 +1,32 @@
-# the_meal_app
+# The Random Meal App
 
-A new Flutter project.
 
-## Getting Started
+# Meal App with THE MEAL DB API Integration
 
-This project is a starting point for a Flutter application.
+## Key Features:
 
-A few resources to get you started if this is your first Flutter project:
+- **Random Meal Display:** Displays a random meal to inspire users' culinary adventures.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Step-by-Step Guide:** Provides a detailed, easy-to-follow guide on how to prepare the meal, ensuring users can replicate it effortlessly.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Geographical Origin:** Shows the meal's geographical origin, adding cultural context to the culinary experience.
+
+- **Ingredients List & Shopping:** Lists all the ingredients required for the recipe, enabling users to generate a shopping list for convenience.
+
+- **Seamless YouTube Integration:** Seamlessly redirects users to the YouTube app with a tap on the embedded YouTube button for a more immersive cooking experience.
+
+- **YouTube Video Tutorial:** Links to a YouTube video tutorial specifically tailored to the meal, offering visual guidance and enhancing the preparation process.
+
+## State Management:
+
+Riverpod is utilized for state management within the app, ensuring efficient and robust management of application state for a seamless user experience.
+
+
+
+
+
+### App Preview
+
+![App UI](/meal_04.jpg)
+
+![App UI](/meal_03.jpg)
