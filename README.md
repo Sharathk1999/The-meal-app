@@ -27,6 +27,7 @@ Riverpod is utilized for state management within the app, ensuring efficient and
 
 ### App Preview
 
+![App UI](/meal_03.jpg)
+
 ![App UI](/meal_04.jpg)
 
-![App UI](/meal_03.jpg)
